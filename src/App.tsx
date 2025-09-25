@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router";
-import { Chatbot } from "@/pages/Chatbot";
+import { UserChat } from "@/pages/UserChat";
+import Admin from "./pages/Admin";
 
 // const Details = lazy(async () =>
 //     import("@/pages/Details").then((m) => ({ default: m.Details }))
@@ -8,7 +9,8 @@ import { Chatbot } from "@/pages/Chatbot";
 export function App() {
     return (
         <Routes>
-            <Route element={<Chatbot />} index={true} />
+            <Route element={<UserChat />} index={true} />
+            <Route element={<Admin />} path="/admin" />
         </Routes>
     );
 }
