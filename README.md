@@ -38,3 +38,11 @@ Users can request a human agent at any time. When this happens, the chatbot uses
 Both users and admins connect to a shared WebSocket manager, enabling real-time updates for all participants. This architecture ensures that any changes in chat state, new messages, or escalations are instantly broadcasted to all relevant clients.
 
 AI-generated messages are also sent through the WebSocket connection, rather than via a REST API. This approach simplifies the message flow and execution, ensuring that all messages—whether from users, admins, or the AI—are delivered in real time through a single, unified channel.
+
+### AI Use
+
+- Used on the frontend for CSS styling with tailwind as well as general use with copilot in VSCode
+
+### Time Taken
+
+- About 4 hours
