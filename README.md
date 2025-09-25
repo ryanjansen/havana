@@ -1,27 +1,22 @@
-/**
- * # Project Documentation
- *
- * ## Getting Started
- *
- * To run the project in development mode, use one of the following commands:
- *
- * - With pnpm:
- *   ```
- *   pnpm dev
- *   ```
- * - With npm:
- *   ```
- *   npm run dev
- *   ```
- *
- * ## Main Parts of the Project
- *
- * - **src/**: Contains the main source code for the application, including components, pages, and utilities.
- * - **public/**: Static assets such as images and icons that are publicly accessible.
- *
- *
- * The development server will start and you can view the application in your browser at http://localhost:1517`.
- */
+## Getting Started
+
+To run the project in development mode, use one of the following commands:
+
+- With pnpm:
+    ```
+    pnpm dev
+    ```
+- With npm:
+    ```
+    npm run dev
+    ```
+
+## Main Parts of the Project
+
+- **src/**: Contains the main source code for the application, including components, pages, and utilities.
+- **public/**: Static assets such as images and icons that are publicly accessible.
+
+The development server will start and you can view the application in your browser at http://localhost:1517.
 
 ## Chat States and Escalation
 
