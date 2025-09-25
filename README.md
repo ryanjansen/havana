@@ -2,8 +2,8 @@
 
 This project implements a real-time chatbot application with seamless human intervention capabilities. It features a user-facing chat interface and an admin dashboard for human agents to monitor and take over conversations as needed.
 
-[Havana Chatbot Screenshot](https://github.com/ryanjansen/havana/blob/main/screenshot-user.png)
-[Admin Interface](https://github.com/ryanjansen/havana/blob/main/screenshot-admin.png)
+![Havana Chatbot Screenshot](https://github.com/ryanjansen/havana/blob/main/screenshot-user.png?raw=true)
+![Admin Interface](https://github.com/ryanjansen/havana/blob/main/screenshot-admin.png?raw=true)
 
 ## Getting Started
 
