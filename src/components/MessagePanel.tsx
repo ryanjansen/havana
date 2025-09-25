@@ -18,7 +18,7 @@ const MessagePanel = ({ messages, isWaitingForReply }: Properties) => {
         <div className="flex flex-col gap-4 w-full max-w-2xl h-200 overflow-y-auto p-4">
             {messages?.length === 0 && (
                 <div className="flex flex-col justify-center items-center h-full text-gray-500 text-center my-8">
-                    Welcome! Start the conversation by sending a message.
+                    Welcome to Havana Tech! How can we assist you today?
                 </div>
             )}
             {messages.map((msg, idx) => (
